@@ -7,3 +7,5 @@
 ## 問題の参考によくある質問ってページがいい感じ
 
 https://www.mcdonalds.co.jp/cservice/faq/
+
+次回はとりあえずどんな問題を出すか考えよう
