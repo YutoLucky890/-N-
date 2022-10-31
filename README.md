@@ -4,6 +4,6 @@
 
 簡単なやつ3択で
 
-## よくある質問のサイトがいい感じ
+## 問題の参考によくある質問ってページがいい感じ
 
 https://www.mcdonalds.co.jp/cservice/faq/
