@@ -4,7 +4,12 @@
     width: 100%;
   }
   .title{
-    font-size: auto;
+    font-size: 10px;
+    text-align: center;
+  }
+  .title2{
+    font-size: 25px;
+    text-align: center;
   }
   .sma{
     display: block;
