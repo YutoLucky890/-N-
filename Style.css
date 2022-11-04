@@ -3,6 +3,16 @@
   main {
     width: 100%;
   }
+  .title{
+    font-size: auto;
+  }
+  .sma{
+    display: block;
+    text-align: center;
+  }
+}
+.sma{
+  display: none;
 }
 .title{
   text-align: center;
