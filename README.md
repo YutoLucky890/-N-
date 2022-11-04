@@ -9,3 +9,21 @@
 https://www.mcdonalds.co.jp/cservice/faq/
 
 次回はとりあえずどんな問題を出すか考えよう
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+あ
