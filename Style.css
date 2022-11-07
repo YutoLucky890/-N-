@@ -26,7 +26,7 @@
     text-align: center;
     margin: auto;
   }
-  p.Arasuzi{
+  .pArasuzi{
     text-align: center;
     font-size: 15px;
   }
@@ -50,7 +50,7 @@
   font-size: 60px;
   color: #b33e5c;
 }
-p.dounyuu{
+.pdounyuu{
   display: block;
   text-align: center;
   font-size: 30px;
