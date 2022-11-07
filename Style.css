@@ -3,8 +3,39 @@
   font-family: 'horror_font';
   src: url(https://github.com/YutoLucky890/-N-/tetsubin-gothic/その他/07鉄瓶ゴシック.ttf)format('truetype');
 }
-/*スマホ用コード*/
-@media screen and (max-width:910px){
+@media screen and (max-width:1280px){
+  
+/*PCCSS*/
+.title1{
+  text-align: center;
+  display: block;
+  font-size: 45px;
+  color: black;
+}
+.sma{
+  display: none;
+}
+.title2{
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #b33e5c;
+  font-family: 'horror_font';
+}
+.sma2{
+  display:none;
+}
+p.dounyuu{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+p.Arasuzi{
+text-align: center;
+font-size: 45px;
+}
+}
+@media screen and (max-width:480px){
   /*画面サイズが480px以下の場合ここの記述が適用される*/
   main {
     width: 100%;
@@ -16,7 +47,7 @@
     margin: 15px;
   }
   .title2{
-    font-family: 'horror_font',sans-serif;
+    font-family: 'horror_font';
     font-size: 10px;
     text-align: center;
     display: block;
@@ -37,32 +68,3 @@
     font-weight: 50;
   }
 }
-/*PCCSS*/
-.sma{
-  display: none;
-}
-.sma2{
-  display:none;
-}
-.title1{
-  text-align: center;
-  display: block;
-  font-size: 45px;
-  color: black;
-}
-.title2{
-  display: block;
-  text-align: center;
-  font-size: 60px;
-  color: #b33e5c;
-}
-p.dounyuu{
-  display: block;
-  text-align: center;
-  font-size: 30px;
-}
-p.Arasuzi{
-text-align: center;
-font-size: 45px;
-}
-
