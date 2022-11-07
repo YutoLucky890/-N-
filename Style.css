@@ -3,7 +3,7 @@
   main {
     width: 100%;
   }
-  .title1{
+  .title{
     font-size: 10px;
     text-align: center;
     display: block;
@@ -24,10 +24,11 @@
     font-size: 15px;
   }
 }
+
 .sma{
   display: none;
 }
-.title1{
+.title{
   text-align: center;
   display: block;
   font-size: 45px;
