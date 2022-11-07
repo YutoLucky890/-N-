@@ -18,7 +18,7 @@
     display: block;
     text-align: center;
   }
-  .p導入{
+  p.導入{
     display: block;
     text-align: center;
     font-size: 15px;
@@ -41,13 +41,13 @@
   color: #b33e5c;
   height: 0px;
 }
-.p導入{
+p.dounyuu{
   display: block;
   text-align: center;
   font-size: 30px;
   height: 60px;
 }
-.pArasuzi{
+p.Arasuzi{
 text-align: center;
 font-size: 45px;
 }
