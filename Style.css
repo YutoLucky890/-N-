@@ -18,6 +18,11 @@
     display: block;
     text-align: center;
   }
+  .p導入{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
 }
 .sma{
   display: none;
@@ -36,13 +41,13 @@
   color: #b33e5c;
   height: 0px;
 }
-p.導入{
+.p導入{
   display: block;
   text-align: center;
   font-size: 30px;
   height: 60px;
 }
-p.Arasuzi{
+.pArasuzi{
 text-align: center;
 font-size: 45px;
 }
