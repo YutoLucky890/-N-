@@ -1,14 +1,14 @@
-@media screen and (max-width:480px){
+@media (max-width:480px){
   /*画面サイズが480px以下の場合ここの記述が適用される*/
   main {
     width: 100%;
   }
-  .title p{
+  p.title{
     font-size: 25px;
     text-align: center;
     display: block;
   }
-  .title2 p{
+  p.title2 {
     font-size: 25px;
     text-align: center;
     display: block;
@@ -21,12 +21,12 @@
     display: block;
     text-align: center;
   }
-  .dounyuu p{
+  p.dounyuu{
     display: block;
     text-align: center;
     margin: auto;
   }
-  .Arasuzi p{
+  p.Arasuzi{
     text-align: center;
     font-size: 15px;
   }
