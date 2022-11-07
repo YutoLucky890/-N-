@@ -4,7 +4,7 @@
     width: 100%;
   }
   .title{
-    font-size: 10px;
+    font-size: 25px;
     text-align: center;
     display: block;
   }
@@ -24,6 +24,7 @@
   .pdounyuu{
     display: block;
     text-align: center;
+    margin: auto;
   }
 }
 .sma{
@@ -44,13 +45,11 @@
   text-align: center;
   font-size: 60px;
   color: #b33e5c;
-  height: 0px;
 }
 p.dounyuu{
   display: block;
   text-align: center;
   font-size: 30px;
-  height: 60px;
 }
 .pArasuzi{
 text-align: center;
