@@ -6,7 +6,7 @@
   display: block;
   font-size: 45px;
   color: black;
-  height: 10px;
+  margin: 10%;
 }
 .sma{
   display: none;
@@ -17,6 +17,7 @@
   text-align: center;
   font-size: 60px;
   color: #b33e5c;
+  height: 5px;
 }
 .sma2{
   display: none;
@@ -29,6 +30,13 @@
 .Arasuzi{
 text-align: center;
 font-size: 45px;
+margin: 25px;
+}
+.あらすじ内容{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
 }
 }
 /*スマホ用CSS*/
@@ -38,16 +46,17 @@ font-size: 45px;
     width: 100%;
   }
   .title1{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     display: block;
   }
   .title2 {
     font-family: "Dasyutsu";
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     display: block;
     color: #b33e5c;
+    height: 5px;
   }
   .sma{
     display: block;
@@ -60,9 +69,15 @@ font-size: 45px;
   .dounyuu{
     display: block;
     text-align: center;
-    margin: auto;
+    margin: 25px;
+    font-size: 25px;
   }
   .Arasuzi{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+  .あらすじ内容{
     text-align: center;
     font-size: 15px;
   }
