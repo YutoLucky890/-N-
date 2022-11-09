@@ -1,7 +1,7 @@
 @media screen and (min-width: 1000px) {
 
 /*PC用CSS*/
-.title{
+.title1{
   text-align: center;
   display: block;
   font-size: 45px;
@@ -36,7 +36,7 @@ font-size: 45px;
   main {
     width: 100%;
   }
-  p.title{
+  p.title1{
     font-size: 25px;
     text-align: center;
     display: block;
