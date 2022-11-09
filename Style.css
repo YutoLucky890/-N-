@@ -28,7 +28,7 @@ text-align: center;
 font-size: 45px;
 }
 /*スマホ用CSS*/
-@media screen and(max-width: 1000px){
+@media screen and(max-width: 1000px) {
   /*画面サイズが480px以下の場合ここの記述が適用される*/
   main {
     width: 100%;
