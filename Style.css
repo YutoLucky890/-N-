@@ -12,6 +12,7 @@
   display: none;
 }
 .title2{
+  font-family: Horror_font;
   display: block;
   text-align: center;
   font-size: 60px;
@@ -66,4 +67,8 @@ font-size: 45px;
   }
 }
 
+@font-face {
+  font-family: "Horror_font";
+  src: url(https://github.com/YutoLucky890/-N-/blob/main/tetsubin-gothic/その他/07鉄瓶ゴシック.ttf);
+}
 
