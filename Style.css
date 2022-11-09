@@ -70,6 +70,7 @@ font-size: 45px;
 
 @font-face {
   font-family: "Horror_font";
-  src: url(https://github.com/YutoLucky890/-N-/tetsubin-gothic/その他/07鉄瓶ゴシック.ttf)format('truetype');
+  src: url(https://github.com/YutoLucky890/-N-/fonts/07鉄瓶ゴシック.ttf)format('truetype'),
+  url(https://github.com/YutoLucky890/-N-/fonts/07鉄瓶ゴシック.woff)format('woff');
 }
 
