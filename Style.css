@@ -1,4 +1,32 @@
-@media (max-width:480px){
+.sma{
+  display: none;
+}
+.sma2{
+  display: none;
+}
+.title{
+  text-align: center;
+  display: block;
+  font-size: 45px;
+  color: black;
+  height: 10px;
+}
+.title2{
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #b33e5c;
+}
+.pdounyuu{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+.pArasuzi{
+text-align: center;
+font-size: 45px;
+}
+@media screen and(max-width:480px){
   /*画面サイズが480px以下の場合ここの記述が適用される*/
   main {
     width: 100%;
@@ -31,32 +59,5 @@
     font-size: 15px;
   }
 }
-.sma{
-  display: none;
-}
-.sma2{
-  display: none;
-}
-.title{
-  text-align: center;
-  display: block;
-  font-size: 45px;
-  color: black;
-  height: 10px;
-}
-.title2{
-  display: block;
-  text-align: center;
-  font-size: 60px;
-  color: #b33e5c;
-}
-.pdounyuu{
-  display: block;
-  text-align: center;
-  font-size: 30px;
-}
-.pArasuzi{
-text-align: center;
-font-size: 45px;
-}
+
 
