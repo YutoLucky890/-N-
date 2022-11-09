@@ -1,9 +1,4 @@
-.sma{
-  display: none;
-}
-.sma2{
-  display: none;
-}
+/*PC用CSS*/
 .title{
   text-align: center;
   display: block;
@@ -11,11 +6,17 @@
   color: black;
   height: 10px;
 }
+.sma{
+  display: none;
+}
 .title2{
   display: block;
   text-align: center;
   font-size: 90px;
   color: #b33e5c;
+}
+.sma2{
+  display: none;
 }
 .pdounyuu{
   display: block;
@@ -26,6 +27,7 @@
 text-align: center;
 font-size: 45px;
 }
+/*スマホ用CSS*/
 @media screen and(max-width:480px){
   /*画面サイズが480px以下の場合ここの記述が適用される*/
   main {
