@@ -12,7 +12,7 @@
   display: none;
 }
 .title2{
-  font-family: Horror_font;
+  font-family: "Dasyutsu";
   display: block;
   text-align: center;
   font-size: 60px;
@@ -43,7 +43,7 @@ font-size: 45px;
     display: block;
   }
   .title2 {
-    font-family: Horror_font;
+    font-family: "Dasyutsu";
     font-size: 25px;
     text-align: center;
     display: block;
@@ -69,8 +69,7 @@ font-size: 45px;
 }
 
 @font-face {
-  font-family: "Horror_font";
-  src: url(https://github.com/YutoLucky890/-N-/fonts/07-webfont.woff)format('woff'),
-  url(https://github.com/YutoLucky890/-N-/fonts/07-webfont.woff2)format('woff');
+  font-family: "Dasyutsu";
+  src: url(https://github.com/YutoLucky890/-N-/blob/main/fonts/DotGothic16-Regular.ttf)format('truetype');
 }
 
