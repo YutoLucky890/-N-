@@ -67,12 +67,14 @@ margin: 25px;
   .dounyuu{
     display: block;
     text-align: center;
+
     font-size: 25px;
   }
   .Arasuzi{
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 100;
   }
   .あらすじ内容{
     text-align: center;
