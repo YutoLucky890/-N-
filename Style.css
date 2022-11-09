@@ -20,12 +20,12 @@
 .sma2{
   display: none;
 }
-.pdounyuu{
+p.dounyuu{
   display: block;
   text-align: center;
   font-size: 30px;
 }
-.pArasuzi{
+p.Arasuzi{
 text-align: center;
 font-size: 45px;
 }
@@ -45,6 +45,7 @@ font-size: 45px;
     font-size: 25px;
     text-align: center;
     display: block;
+    color: #b33e5c;
   }
   .sma{
     display: block;
