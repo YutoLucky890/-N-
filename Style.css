@@ -42,6 +42,7 @@ margin: 25px;
   font-size: 30px;
   font-weight: bold;
 }
+}
 /*スマホ用CSS*/
 @media screen and (max-width: 1000px) {
   /*画面サイズが480px以下の場合ここの記述が適用される*/
@@ -91,9 +92,7 @@ margin: 25px;
     font-weight: 100;
   }
 }
-
 @font-face {
   font-family: "Dasyutsu";
   src: url('htpts://github.com/Yutolucky890/-N-/fonts/DotGothic16-Regular.ttf')format('truetype');
-}
 }
