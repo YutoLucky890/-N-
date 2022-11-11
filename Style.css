@@ -41,8 +41,6 @@ margin: 25px;
   display: block;
   font-size: 30px;
   font-weight: bold;
-  margin: auto;
-}
 }
 /*スマホ用CSS*/
 @media screen and (max-width: 1000px) {
@@ -98,4 +96,4 @@ margin: 25px;
   font-family: "Dasyutsu";
   src: url('htpts://github.com/Yutolucky890/-N-/fonts/DotGothic16-Regular.ttf')format('truetype');
 }
-
+}
