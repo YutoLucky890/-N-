@@ -2,14 +2,11 @@
 
 /*PC用CSS*/
 .title1{
-  text-align: center;
+  text-align: left;
   display: block;
   font-size: 45px;
   color: black;
   margin: 10%;
-}
-.href{
-text-align: left;
 }
 .sma{
   display: none;
