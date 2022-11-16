@@ -103,6 +103,10 @@ margin: 25px;
   font-size: 25px;
   background-color: yellow;
 }
+.section-title_stage{
+color: red;
+margin-right: 2rem;
+}
 }
 /*スマホ用CSS*/
 @media screen and (max-width: 1000px) {
