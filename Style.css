@@ -107,6 +107,9 @@ margin: 25px;
 color: red;
 margin-right: 2rem;
 }
+.clear_messege{
+  font-weight: 100;
+}
 }
 /*スマホ用CSS*/
 @media screen and (max-width: 1000px) {
