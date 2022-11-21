@@ -113,6 +113,34 @@ margin-right: 2rem;
 .clear_messege{
   font-weight: 100;
 }
+.section--clear{
+  position: fixed;
+  display: none;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+}
+.section--clear.isClear{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container{
+  width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
 }
 /*スマホ用CSS*/
 @media screen and (max-width: 1000px) {
