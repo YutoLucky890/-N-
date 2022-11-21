@@ -21,6 +21,14 @@
 .sma2{
   display: none;
 }
+.section-title{
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 9px 20px;
+  background-color: royalblue;
+  margin: 0 -20px 20px -20px;
+}
 #page_top{
   width: 100px;
   height: 60px;
@@ -109,6 +117,29 @@ margin: 25px;
 .section-title_stage{
 color: red;
 margin-right: 2rem;
+display: inline-block;
+}
+.section-title--keycolorlight{
+  background: #8cc63f;
+}
+.section-title--keycolorlight .section-title_stage{
+  color: #ffff80;
+}
+.section-title--keycolorlight{
+  background-color: #39b54a;
+}
+.section-title--story{
+  width: 330px;
+  margin: 0 auto 20px;
+}
+.section-title--border{
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.07;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #203744;
 }
 .clear_messege{
   font-weight: 100;
