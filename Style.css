@@ -151,6 +151,32 @@ display: inline-block;
   height: 2.5px;
   width: 190px;
 }
+.btn{
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: aqua;
+  color: #ef3f98;
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: center;
+  padding: 11.5px;
+  width: calc(100% - 40px);
+  max-width: 700px;
+  margin: 10px auto;
+  position: relative;
+}
+.btn:hover{
+ opacity: 0.7;
+}
+.btn_arrow{
+ position: absolute;
+ top: calc(50% - 20px);
+ right: 15px;
+ fill: #fff;
+ width: 12px;
+ height: 24px;
+}
 .clear_messege{
   font-weight: 100;
 }
