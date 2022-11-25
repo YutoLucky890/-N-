@@ -47,8 +47,13 @@
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>　お店の電気をつけよう！</h2>
               <p class="text-center">ひとまず、お店の電気をつけよう。<br>
                 暗すぎて、何も始められない。</p>
+               
+              <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+
+              
               <img src="picture/kitchen-yami.png">
               <p class="text-center">困ったときは、ヒントがある。</p>
+
               <div class="container">
                 <figure class="image__container">
                   <img src="assets/images/mondai_1.png" alt="">
@@ -71,6 +76,21 @@
   
               <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
             </div>
+            <div class="quizzes-container">
+              <h1>クイズ  </h1>
+              <div class="quiz-container">
+                <h2>第1問</h2>
+                <div>
+                  <p>マクドナルドの日本第一号店はどこにオープンしたでしょう？</p>
+                </div>
+                <form id="quiz-1">
+                  <input name="answer" type="radio" value="a">横浜</input>
+                  <input name="answer" type="radio" value="b">銀座</input>
+                  <input name="answer" type="radio" value="c">夢の国</input>
+                </form>
+                <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>
+              </div>
+
           </section>
           <!-- STAGE1解答入力セクション　ここまで -->
   
@@ -104,25 +124,26 @@
                   店長の机の上のどこかに鍵があるはずなんだけど...とても散らかっている。<br>
                   文句を言っていてもしょうがない！<br>
                   早く鍵を探し出そう。</p>
+                  <div class="row">
+  
+                    <!-- STAGE2-1　ここから -->
+                    <div class="column">
+                      <!-- STAGE2-1問題セクション　ここから -->
+                     
+                      <!-- STAGE2-1問題セクション　ここまで -->
+                      <!-- STAGE2-1解答入力セクション　ここから -->
+                      <answer-input v-bind:correct="correctAnswer['stage2']['q1']" v-on:answer-input="answerInput($event, 'stage2', 1)"></answer-input>
+                      <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
+                      <!-- STAGE2-1解答入力セクション　ここまで -->
+                    </div><!-- /.column -->
+    
+                  </div><!-- /.row -->
               </div>
             </div>
             <div class="stage-column__container section bg-color--keycolor">
               <div class="container">
                 <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>　鍵を見つけた</h2>
-                <div class="row">
-  
-                  <!-- STAGE2-1　ここから -->
-                  <div class="column">
-                    <!-- STAGE2-1問題セクション　ここから -->
-                   
-                    <!-- STAGE2-1問題セクション　ここまで -->
-                    <!-- STAGE2-1解答入力セクション　ここから -->
-                    <answer-input v-bind:correct="correctAnswer['stage2']['q1']" v-on:answer-input="answerInput($event, 'stage2', 1)"></answer-input>
-                    <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
-                    <!-- STAGE2-1解答入力セクション　ここまで -->
-                  </div><!-- /.column -->
-  
-                </div><!-- /.row -->
+                
   
               </div>
             </div>
