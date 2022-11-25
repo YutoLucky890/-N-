@@ -1,6 +1,9 @@
 @media screen and (min-width: 1000px) {
 
 /*PC用CSS*/
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .title1{
   text-align: left;
   display: block;
