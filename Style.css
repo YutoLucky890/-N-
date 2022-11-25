@@ -154,6 +154,15 @@ display: inline-block;
   height: 2.5px;
   width: 190px;
 }
+button{
+  cursor: pointer;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  background-color: blue;
+  width: 287px;
+  height: 55px;
+}
 .btn{
   display: block;
   text-decoration: none;
@@ -182,6 +191,10 @@ display: inline-block;
 }
 .clear_messege{
   font-weight: 100;
+}
+.section{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .section--clear{
   position: fixed;
