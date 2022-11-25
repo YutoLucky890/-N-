@@ -122,6 +122,16 @@ margin: 25px;
   font-size: 25px;
   background-color: #ffff80;
 }
+button{
+  cursor: pointer;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  background-color: #006837;
+  color: #fff;
+  width: 287px;
+  height: 55px;
+}
 .section-title_stage{
 color: red;
 margin-right: 2rem;
