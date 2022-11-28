@@ -290,7 +290,7 @@ margin-right: 2rem;
 display: inline-block;
 }
 .section-title--keycolorlight{
-  background: #8cc63f;
+  background: #85de11;
 }
 .section-title--keycolorlight .section-title_stage{
   color: #ffff80;
@@ -392,6 +392,27 @@ display: inline-block;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+.stage-column_container + .stage-column_container{
+  border-top: 2px solid #fff;
+}
+
+.answer{
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 80px;
+  word-spacing: 20px;
+}
+.err-message{
+  color: #c1272d;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link-hint{
+  text-align: center;
+  display: block;
+  margin-top: 20px;
 }
 .clear_messege{
   font-weight: 100;
