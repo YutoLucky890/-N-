@@ -247,6 +247,35 @@ button{
   top: -10px;
   left: 30px;
 }
+.hint-page .card{
+  height: auto;
+}
+.hint-page .card_content{
+  display: none;
+  text-align: center;
+}
+.hint-page .card-arrow{
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 45px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  fill: #009245;
+  width: 12px;
+  height: 24px;
+}
+.hint-page .card.is-open .card_content{
+  display: block;
+}
+.hint-pagen .card .is-open .card_arrow{
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.box{
+  padding: 35px 30px;
+}
 .section-title{
   font-size: 24px;
   line-height: 1.5;
