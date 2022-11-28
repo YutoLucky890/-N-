@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (min-width: 1000px) {
 
 /*PC用CSS*/
@@ -9,6 +10,7 @@
 body{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .title1{
   text-align: left;
   display: block;
@@ -121,6 +123,37 @@ margin: 25px;
   text-align: center;
   font-size: 25px;
   background-color: #ffff80;
+}
+figure{
+  margin: 0;
+}
+figcaption{
+  margin-top: 30px;
+  font-size: 14px;
+}
+figcaption{
+  font-size: 13px;
+}
+input[type=text]{
+  font-size: 18px;
+  border: none;
+  padding: 25px 35px;
+  display: block;
+  margin: 0 auto;
+  max-width: 580px;
+  width: 100%;
+}
+::-webkit-input-placeholder{
+  color: #006837;
+}
+:-ms-input-placeholder{
+  color: #006837;
+}
+::-ms-input-placeholder{
+  color: #006837;
+}
+::placeholder{
+  color: #006837;
 }
 button{
   cursor: pointer;
